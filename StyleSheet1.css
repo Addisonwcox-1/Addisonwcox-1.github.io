@@ -5,5 +5,40 @@
 
 h1
 {
-    text-decoration-color: deepskyblue;
+    text-decoration-style: dotted;
+}
+
+h3{
+    font: bold;
+    font-size: 30px;
+}
+
+h4{
+    font: italic;
+    font-size: 25px;
+}
+nav{
+    float: left;
+    text-decoration: none;
+    background: white;
+    padding: 5px;
+    border-radius: 15px;
+    margin-right:0;
+    box-shadow: 4px 4px 4px black;
+}
+h3{
+    float: unset;
+}
+
+a {
+
+    float: right;
+    background-color: lightsteelblue;
+    text-decoration: none;
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+    border-radius: 10px;
+    margin: 30px;
+    text-align: center;
 }
