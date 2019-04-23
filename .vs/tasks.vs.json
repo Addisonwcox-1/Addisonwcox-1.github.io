@@ -1,0 +1,15 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskName": "task-Index",
+      "appliesTo": "Index.html",
+      "type": "launch"
+    },
+    {
+      "taskName": "task-Addisonwcox-1.github",
+      "appliesTo": "/",
+      "type": "launch"
+    }
+  ]
+}
