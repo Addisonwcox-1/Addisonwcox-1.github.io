@@ -1,4 +1,8 @@
-﻿body{
+﻿
+html {
+    scroll-behavior: smooth;
+}
+body{
     background-color:lightgoldenrodyellow;
     text-decoration-color: black;
 }
@@ -44,4 +48,8 @@ a {
     margin: 30px;
     text-align: center;
     min-width: 30px;
+}
+
+q {
+    quotes: "“" "”";
 }
