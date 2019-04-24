@@ -2,9 +2,16 @@
 html {
     scroll-behavior: smooth;
 }
-body{
-    background-color:lightgoldenrodyellow;
+body {
+    background-color: lightgoldenrodyellow;
     text-decoration-color: black;
+    float: unset;
+}
+
+h1{
+    float: none;
+    border: medium;
+    border-color: azure;
 }
 
 h2
@@ -43,13 +50,11 @@ a {
     float: right;
     background-color: lightsteelblue;
     padding: 20px;
-    display: block;
+    display: inline-block;
     border-radius: 10px;
     margin: 30px;
     text-align: center;
-    min-width: 30px;
+    min-width: 10px;
+
 }
 
-q {
-    quotes: "“" "”";
-}
